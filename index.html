@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <!--Заголовок страницы, контейнер для других важных данных(не отображаются)-->
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,700;9..40,900&display=swap" rel="stylesheet">
+
+
+        <link rel="stylesheet" href="css/style.css">
+        <!--Заголовок странийы в браузере-->
+        <title>это title</title>
+        <!--Кодировка страницы-->
+        <!--<meta http-equiv="content-type" content="text/html;charset=UTF+10" />-->
+        <meta charset="UTF-8">
+    </head>
+    <body>
+      <div class="site-container">
+        <header id="home">
+            <div class="menu-container">
+                <div class="menu-row">
+                    <div class="title"><a href="">Castaway</a></div>
+                    <div class="menu__navigation">
+                        <div class="menu__item">
+                            <a href="#home" class="menu__item_active">Home</a>
+                            <a href="#episodes" >Episodes</a>
+                            <a href="#about">About</a>
+                            <a href="#reviews">Reviews</a>
+                            <a href="#contacts">Contact</a>                                              
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div class="first-block-container">
+                <div class="first-block-row">
+                    <div class="first-block__img">
+                        <img src="img/01.jpg" alt="">
+                    </div>
+                    <div class="first-block-information">
+                        <div class="first-block-information__text">
+                            Take your podcast to the <span class="decoration1">next</span> <span class="big-bold">level</span>
+                        </div>
+                            <div class="first-block-information-lower">
+                            <div class="first-block-information__subtitle">Listen on</div>
+                            <div class="first-block-information__icons">
+                                <a class="icon" href=""><img src="img/svgicon1.svg" alt=""></a>
+                                <a class="icon" href=""><img src="img/svgicon2.svg" alt=""></a>
+                                <a class="icon" href=""><img src="img/svgicon3.svg" alt=""></a>
+                                <a class="icon" href=""><img src="img/svgicon4.svg" alt=""></a>
+                                <a class="icon" href=""><img src="img/svgicon5.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-block-container" id="episodes">
+                <div class="subtitle">Latest episodes</div>               
+                <button class="btn"><a href="">View all episodes</a></button>               
+            </div>
+            <div class="third-block-container">
+                <div class="postcard">
+                    <div class="postcard__img"><img src="img/pc1.jpg" alt=""></div>
+                    <div class="postcard__right-part">
+                        <div class="postcard__unnone" >Gear </div>
+                        <div class="postcard__episode-number">Episode 3</div>
+                        <div class="subtitle postcard__subtitle">Should you get outboard audio gear?</div>
+                        <div class="postcard__text text">Is hardware really worth it when it comes to podcasting? The answer is...it depends. Here’s our reasons on why you might want to consider picking something up.</div>
+                        <button class="btn postcard__btn"><a href="">View Episode Details</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="third-block-container">
+                <div class="postcard">
+                    <div class="postcard__img"><img src="img/pc2.jpg" alt=""></div>
+                    <div class="postcard__right-part">
+                        <div class="postcard__unnone postcard__unnone_long">Tips & Tricks</div>
+                        <div class="postcard__episode-number">Episode 2</div>
+                        <div class="subtitle postcard__subtitle">Mic tricks to take you to the next level</div>
+                        <div class="postcard__text text">Stop rolling with those default settings on your mic. These small tweaks will take you from sounding good to great.</div>
+                        <button class="btn postcard__btn"><a href="">View Episode Details</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="third-block-container">
+                <div class="postcard">
+                    <div class="postcard__img"><img src="img/pc3.jpg" alt=""></div>
+                    <div class="postcard__right-part">
+                        <div class="postcard__unnone">Gear</div>
+                        <div class="postcard__episode-number">Episode 1</div>
+                        <div class="subtitle postcard__subtitle">The best microphone under $200</div>
+                        <div class="postcard__text text">With so many microphones on the market, how are you supposed to know what’s the best? Take a look at our top picks.</div>
+                        <button class="btn postcard__btn"><a href="">View Episode Details</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="four-wrapper" id="about">
+                <div class="host-container">
+                    <div class="host-container-left">
+                        <button class="host__circular-button"><img src="img/arrow.png" alt=""></button>
+                        <div class="host__button-title">Meet your host</div>
+                        <div class="host__title">Jacob Paulaner</div>
+                        <div class="host__text text">Jacob has a background in audio engineering, and has been podcasting since the early days.</div>
+                        <div class="host__text text">He’s here to help you level up your game by sharing everything he’s learned along the way.</div>
+                    </div>
+                    <div class="host-container-right">
+                        <img src="img/02.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-decoration">
+                <div class="subscribe-form-container">
+                    <div class="subscribe-form-wrapeer">
+                        <div class="subscribe-form-wrapeer-left">
+                            <div class="subscribe-form__upper-subtitle">Email Newsletter</div>
+                            <div class="subscribe-form__title">Subscribe for updates</div>
+                        </div>
+                        <div class="subscribe-form-wrapeer-right">
+                            <input type="text" name="Neme" value="" placeholder="Name" class="subscribe-form-wrapeer-right__input-form">
+                            <input type="text" name="email" value="" placeholder="Email" class="subscribe-form-wrapeer-right__input-form">
+                            <button class="subscribe-form-wrapeer-right__button"><a href="">Submit</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="reviews" id="reviews">
+                <div class="reviews__container">
+                    <div class="reviews-item">
+                        <div class="rewiews-item__star">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt=""></div>
+                        <div class="rewiews-item__text">I can’t recommend this podcast enough</div>
+                        <div class="rewiews-item__name">Betty Lacey</div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="rewiews-item__star">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt=""></div>
+                        <div class="rewiews-item__text">Jacob is the best in the business</div>
+                        <div class="rewiews-item__name">Adam Driver</div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="rewiews-item__star">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt=""></div>
+                        <div class="rewiews-item__text">A wealth of audio knowledge</div>
+                        <div class="rewiews-item__name">Marcus Brown</div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="rewiews-item__star">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt=""></div>
+                        <div class="rewiews-item__text">Every episode is a gem!</div>
+                        <div class="rewiews-item__name">Jessica Knowl</div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="rewiews-item__star">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt=""></div>
+                        <div class="rewiews-item__text">Whoa whoa, let me take some notes!</div>
+                        <div class="rewiews-item__name">Scott Adams</div>
+                    </div>
+                    <div class="reviews-item">
+                        <div class="rewiews-item__star">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt="">
+                            <img src="img/star.svg" alt=""></div>
+                        <div class="rewiews-item__text">I’ve upped my game considerably since I started listening</div>
+                        <div class="rewiews-item__name">Steven Blast</div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <div class="footer-container" id="contacts">
+                <div class="footer-row">
+                    <div class="footer-row__first">
+                        <div class="title">Castaway</div>
+                        <div class="social-icon footer-icon">
+                            <a href=""><img src="/img/inst.svg" alt=""></a>
+                            <a href=""><img src="/img/twit.svg" alt=""></a>
+                            <a href=""><img src="/img/fb.svg" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="footer-row__second">
+                        <a href="#home" class="navigation" >Home</a>
+                        <a href="#episodes" class="navigation">Episodes</a>
+                        <a href="#about" class="navigation">About</a>
+                        <a href="#reviews" class="navigation">Reviews</a>
+                        <a href="#contacts" class="navigation">Contact</a>                       
+                    </div>
+                    <div class="footer-row__third">
+                        <a href="" class="navigation">Style Guide</a>
+                        <a href="" class="navigation">Instructions</a>
+                        <a href="" class="navigation">Changelog</a>
+                        <a href="" class="navigation">Credit</a>
+                        <a href="" class="navigation">Powered by Webflow</a>
+                        <a href="" class="navigation">Licenses</a>
+                    </div>
+                    <div class="footer-row__fourth">
+                        <a class="icon" href=""><img src="img/svgicon1.svg" alt=""></a>
+                        <a class="icon" href=""><img src="img/svgicon2.svg" alt=""></a>
+                        <a class="icon" href=""><img src="img/svgicon3.svg" alt=""></a>
+                        <a class="icon" href=""><img src="img/svgicon4.svg" alt=""></a>
+                        <a class="icon" href=""><img src="img/svgicon5.svg" alt=""></a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+      </div>
+    </body>
+</html>
+
+
